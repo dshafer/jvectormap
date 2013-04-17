@@ -13,6 +13,7 @@ files=( \
   lib/svg-shape-element.js \
   lib/svg-path-element.js \
   lib/svg-circle-element.js \
+  lib/svg-image-element.js \
   lib/vml-element.js \
   lib/vml-group-element.js \
   lib/vml-canvas-element.js \
@@ -51,4 +52,4 @@ fi
 
 cat ${files[*]} >> $minified
 
-uglifyjs --overwrite $minified
+uglifyjs $minified -o $minified
