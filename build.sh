@@ -20,6 +20,7 @@ files=( \
   lib/vml-shape-element.js \
   lib/vml-path-element.js \
   lib/vml-circle-element.js \
+  lib/vml-image-element.js \
   lib/vector-canvas.js \
   lib/simple-scale.js \
   lib/ordinal-scale.js \
